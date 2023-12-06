@@ -38,11 +38,25 @@ html {
 
 #desktop-nav{
     display:flex;
+    background-color: #00A9FF;
 }
 
+nav {
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  padding-inline: 5rem;
+}
+
+.nav-links{
+
+    
+}
 
 ul{
     list-style-type: none;
     display: flex;
     gap: 10px;
+    
+    
 }
