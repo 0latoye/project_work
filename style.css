@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* COLOR SCHEME
+Background: white
+
+BLUE AND GREEN
+
+Blue allocation:
+
+Deep Blue: segments
+Blue : Buttons
+Light Blue
+
+Green segments:
+
+Dark green
+Green
+Light green
+
+
+Text: Dark grey/black on light blue
+
+
+*/
+
+body{
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#desktop-nav{
+    display:flex;
+}
+
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
