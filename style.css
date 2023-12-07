@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 
 /* COLOR SCHEME
@@ -28,7 +28,7 @@ Text: Dark grey/black on light blue
 
 */
 
-body{
+body {
   font-family: "Poppins", sans-serif;
 }
 
@@ -36,9 +36,9 @@ html {
   scroll-behavior: smooth;
 }
 
-#desktop-nav{
-    display:flex;
-    background-color: #00A9FF;
+#desktop-nav {
+  display: flex;
+  background-color: #00a9ff;
 }
 
 nav {
@@ -48,17 +48,32 @@ nav {
   padding-inline: 5rem;
 }
 
-.nav-links{
-
-    
+.nav-links {
 }
 
-ul{
-    list-style-type: none;
-    display: flex;
-    gap: 10px;
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
 }
 
-.landing_page{
-    
+.landing_page {
+  background-color: aqua;
+  display: flex;
+  padding:10px;
+}
+
+.left{
+  /* display: flex; */
+
+}
+
+.convert_section{
+
+}
+
+
+.footer{
+  height: 10vh;
+  bottom: 0;
 }
