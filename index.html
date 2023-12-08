@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media_q.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <title>Exchange Sphere</title>
 </head>
 <body>
@@ -46,45 +47,44 @@
 
         </div>
 
-        <div class="right">
+        
+             <!-- CURRENCY CONVERTER SECTION -->
+                  <div class="wrapper">
 
-          <div class="rate">
-            <p class="ex_text">Exchange rate</p>
+                    <header>Currency Converter</header>
+                  <form action="#">
 
-            <div class="flat_rate">
+                    <div class="amount">
+                      <p>Enter Amount</p>
+                      <input type="text" value="1">
+                    </div>
 
-              <h2>1</h2>
-              <h2 class="base_currency_rate"></h2>
-              <h2 class="value"> = </h2>
-              <h2 class="target_currency_rate"> </h2>
+                    <div class="drop-list">
+                      <div class="from">
+                        <p>From</p>
+                        <div class="select-box">
+                          <img src="https://flagcdn.com/48x36/us.png" alt="flag">
+                          <select> <!-- Options tag are inserted from JavaScript --> </select>
+                        </div>
+                      </div>
+                      <div class="icon"><i class="fas fa-exchange-alt"></i></div>
+                      <div class="to">
+                        <p>To</p>
+                        <div class="select-box">
+                          <img src="https://flagcdn.com/48x36/np.png" alt="flag">
+                          <select> <!-- Options tag are inserted from JavaScript --> </select>
+                        </div>
+                      </div>
+                    </div>
 
-            </div>
-          </div>
+                    <div class="exchange-rate">Getting exchange rate...</div>
+                    <button>Get Exchange Rate</button>
+                  </form>
 
-          <!-- <form action="" class="convert_section"> -->
-          <div class="wrapper">
+                    </div>
+       
 
-            <label for="amount">You send: <h2>amount</h2></label>
-            <input type="number" id="amount" value="1">
-            <div class="currency_list">
-                <select id="base_currency"></select>
-                <p class="result1"></p>
-            </div>
-
-            <label for="send">They receive: <h2>amount</h2></label>
-            <!-- <input type="number" id="amount" value="1"> -->
-            <div class="currency_list">
-              <select id="target_currency"></select>
-              <p class="result1"></p>
-            </div>
-            <button id="convert-button" class="conv">Convert</button>
-            <p class="result"></p>
-            <!-- <label for="receive">They receive: <h2>amount</h2></label> -->
-
-          <!-- </form> -->
-            </div>
-
-        </div>
+         
 
 
 
@@ -104,9 +104,8 @@
 
     </footer>
     
-<script src="nscript.js"></script>
+<script src="script.js"></script>
 <script src="currency_code.js"></script>
-<script src="api-key.js"></script>
 </body>
 
 
