@@ -33,9 +33,7 @@ Text: Dark grey/black on light blue
 body{
   /* display: flex; */
   align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  /* padding: 0 10px; */
+1 /* padding: 0 10px; */
   background: #675AFE;
   overflow: hidden;
 }
