@@ -33,8 +33,10 @@ Text: Dark grey/black on light blue
 body{
   /* display: flex; */
   align-items: center;
-1 /* padding: 0 10px; */
-  background: #675AFE;
+  justify-content: center;
+  min-height: 100vh;
+  /* padding: 0 10px; */
+  /* background: #675AFE; */
   overflow: hidden;
 }
 /* --------------------------- */
@@ -44,7 +46,8 @@ html {
 
 #desktop-nav {
   display: flex;
-  background-color: #00a9ff;
+  /* background-color: #00a9ff; */
+  background-color: rgb(16, 89, 66);
 }
 
 nav {
@@ -55,13 +58,24 @@ nav {
 }
 
 ul {
+  
   list-style-type: none;
   display: flex;
   gap: 10px;
 }
 
+li a{
+  color: whitesmoke;
+}
+
+a:hover{
+  text-decoration:solid ;
+  
+}
+
+
 .landing_page {
-  background-color: aqua;
+  background-color: #2DF3AE;
   display: flex;
   padding:10px;
   height: 80vh;
@@ -86,13 +100,22 @@ label{
   color: #fff;
   font-size: 17px;
   cursor: pointer;
-  background: #675AFE;
+  background: #0e5d41;
   transition: 0.3s ease-in-out;
   border-radius: 10px;
   border: none;
   width: 150px;
 }
 
+.btn:hover{
+  background:#2DF3AE;
+  border: solid 1px;
+}
+
+.footer{
+  background-color: rgb(16, 89, 66);
+
+}
 /* ----------------------------- */
 ::selection{
   color: #fff;
@@ -187,9 +210,11 @@ form button{
   color: #fff;
   font-size: 17px;
   cursor: pointer;
-  background: #675AFE;
+  /* background: #675AFE; */
+  background-color: #2DF3AE;
   transition: 0.3s ease;
 }
 form button:hover{
-  background: #4534fe;
+  /* background: #4534fe; */
+  background: #0e5d41;
 }
