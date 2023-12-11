@@ -1,4 +1,4 @@
-/* Import Google Font - Poppins */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 *{
   margin: 0;
@@ -10,7 +10,7 @@
 /* COLOR SCHEME
 Background: white
 
-BLUE AND GREEN
+BLUE / GREEN
 
 Blue allocation:
 
@@ -65,16 +65,39 @@ gap:1rem;
 .logo h1{
   color:#2DF3AE;
 }
+
 .logo h1:hover{
   text-transform: ;
 }
 
 ul {
+  align-items: center;
   
   list-style-type: none;
   display: flex;
   gap: 10px;
+  font-size: larger;
 }
+
+.sign-up{
+  height: 52px;
+  color: #fff;
+  font-size: large;
+  cursor: pointer;
+  background: #0e5d41;
+  transition: 0.3s ease-in-out;
+  border-radius: 10px;
+  border: none;
+  width: 150px;
+  border: solid 1px white;
+}
+
+.sign-up:hover{
+  background:#2DF3AE;
+  border: solid 1px;
+  font-size: larger;
+}
+
 
 li a{
   color: whitesmoke;
@@ -131,13 +154,16 @@ label{
 .btn:hover{
   background:#2DF3AE;
   border: solid 1px;
+  font-size: larger;
 }
 
 .footer{
   background-color: rgb(16, 89, 66);
 
 }
+
 /* ----------------------------- */
+
 ::selection{
   color: #fff;
   background: #675AFE;
