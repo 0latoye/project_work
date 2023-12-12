@@ -45,6 +45,11 @@ body.dark {
   background-color: var(--deep-green);
 }
 
+.logo_text{
+color: var(--mint-green);
+
+}
+
 .logo_item {
   display: flex;
   align-items: center;
@@ -100,7 +105,9 @@ body.dark {
   overflow-y: scroll;
   box-shadow: 0 0 1px var(--grey-color-light);
   transition: all 0.5s ease;
+
 }
+
 .sidebar.close {
   padding: 60px 0;
   width: 80px;
@@ -152,6 +159,7 @@ body.dark {
   display: inline-block;
   text-align: center;
   border-radius: 6px;
+  color: var(--mint-green);
 }
 .navlink_icon::before {
   content: "";
@@ -163,6 +171,11 @@ body.dark {
 .navlink_icon:hover {
   background: var(--blue-color);
 }
+
+span{
+ /* color: var(--mint-green); */
+}
+
 .sidebar .nav_link {
   display: flex;
   align-items: center;
@@ -173,6 +186,7 @@ body.dark {
   color: var(--grey-color);
   white-space: nowrap;
 }
+
 .sidebar.close .navlink {
   display: none;
 }
