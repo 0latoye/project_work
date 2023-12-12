@@ -17,6 +17,7 @@ body{
   display: flex;
   /* background-color: #00a9ff; */
   background-color: rgb(16, 89, 66);
+
 }
 
 nav {
@@ -61,8 +62,9 @@ gap:1rem;
 .logo h1{
   color:#2DF3AE;
 }
+
 .logo h1:hover{
-  text-transform: ;
+  /* text-transform: ; */
 }
 
 ul {
@@ -99,7 +101,7 @@ a:hover {
   box-shadow: 0 5px 10px rgba(0,0,0,0.3);
 }
 
-.container .registration{
+/* .container .registration{
   display: none;
 }
 
@@ -111,7 +113,29 @@ a:hover {
 }
 #check{
   display: none;
+} */
+
+/* -------------------------------------------------------------------------- */
+
+.container .login{
+  display: none;
 }
+
+#check:checked ~ .login{
+  display: block;
+}
+
+#check:checked ~ .registration{
+  display: none;
+}
+
+#check{
+  display: none;
+}
+
+/* ---------------------------------------------------------------------------- */
+
+
 .container .form{
   padding: 2rem;
 }
