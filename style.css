@@ -34,16 +34,20 @@ body{
   /* display: flex; */
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
-  /* padding: 0 10px; */
-  /* background: #675AFE; */
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 /* --------------------------- */
 html {
   scroll-behavior: smooth;
 }
+h1{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
 
+p{
+  font-family: 'Poppins', sans-serif;
+}
 #desktop-nav {
   display: flex;
   /* background-color: #00a9ff; */
@@ -53,9 +57,16 @@ html {
 nav {
   justify-content: space-between;
   align-items: center;
-  height: 10vh;
+  height: 25%;
   padding-inline: 5rem;
+
 }
+
+.nav-links{
+
+  padding: 20px;
+}
+
 .logo{
 display: flex;
 align-items: center;
@@ -116,20 +127,47 @@ a:hover {
   background-color: #2DF3AE;
   display: flex;
   padding:10px;
-  height: 80vh;
+  height: 100vh;
+
 }
 
 
 .left{
- 
-  margin-top: 5rem;
+  display: flex;
+ flex-direction: column;
+  /* margin-top: 3em; */
+  margin: auto;
+  align-items: center;
   width: 800px;
   height: 800px;
- 
+  justify-content: space-around;
+
+  
+background-color: #675AFE; 
 
 }
 
 .text_section{
+/* margin-bottom: 10%; */
+
+text-align: center;
+background-color: #888;
+align-items: center;
+
+}
+
+.send_money_section{
+
+display: flex;
+justify-content: center;
+
+}
+
+.send_money_btn{
+
+  /* align-items: center; */
+  
+ 
 
 }
 
@@ -203,16 +241,19 @@ form input{
   padding: 0 15px;
   border: 1px solid #999;
 }
+
 form input:focus{
   padding: 0 14px;
   border: 2px solid #675AFE;
 }
+
 form .drop-list{
   display: flex;
   margin-top: 20px;
   align-items: center;
   justify-content: space-between;
 }
+
 .drop-list .select-box{
   display: flex;
   width: 115px;
@@ -222,6 +263,7 @@ form .drop-list{
   justify-content: center;
   border: 1px solid #999;
 }
+
 .select-box img{
   max-width: 21px;
 }

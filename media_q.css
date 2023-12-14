@@ -1,5 +1,49 @@
-@media screen and (max-width: 600px){
+@media screen and (max-width: 400px){
+
+    body{
+        display: flex;
+        overflow: hidden; 
+        /* min-height: none;  */
+        /* height:100%; */
+        /* width: 400px;
+    }
+
+    html{
+        scroll-behavior: none;
+        
+    }
+
+    nav{
+        justify-content:none;
+        padding-inline: 0;
+
+    }
+    #desktop-nav{
+        width: 100%;
+        padding:20px;
+        
+        
+
+    }
+
+    .landing_page{
+        display: grid;
+        height: auto;
+    }
+
+
+
+ 
     .text_section{
-        text-align: justify;
+        text-align: ;   
+        font-size: smaller;
+        padding:30px;
+    }
+
+    .wrapper{
+        display: none; 
     }
 }
+
+
+
