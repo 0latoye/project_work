@@ -1,0 +1,57 @@
+## Exchange Sphere Help Center
+
+Welcome to the Exchange Sphere Help Center! We've compiled a list of frequently asked questions (FAQs) to help you get started and answer any questions you may have about our platform. If you can't find the information you're looking for, please don't hesitate to contact our friendly customer support team.
+
+**General:**
+
+* **What is Exchange Sphere?**
+    * Exchange Sphere is a platform that allows you to exchange currencies and send money internationally with ease.
+* **Is Exchange Sphere safe to use?**
+    * Yes, Exchange Sphere is completely safe to use. We employ the latest security protocols and technologies to protect your data and transactions.
+* **What are your fees?**
+    * We offer transparent and competitive fees. You can see our fee structure here: [link to fee page]
+* **What countries do you support?**
+    * We support a wide range of countries for both currency exchange and international money transfers. You can see a full list of supported countries here: [link to supported countries page]
+* **What are your customer support hours?**
+    * Our customer support team is available 24/7 to assist you. You can contact us via live chat, email, or phone.
+
+**Exchanging Currencies:**
+
+* **How do I exchange currencies?**
+    * You can easily exchange currencies on our platform by following these steps: [link to guide on exchanging currencies]
+* **What currencies can I exchange?**
+    * We offer a wide range of popular currencies for exchange. You can see a full list of supported currencies here: [link to supported currencies page]
+* **What are the exchange rates?**
+    * Our exchange rates are updated in real-time and are competitive with other providers. You can see the current exchange rates for any currency pair here: [link to live exchange rates page]
+* **How long does it take to exchange currencies?**
+    * Currency exchange transactions are typically processed instantly.
+
+**Sending Money Internationally:**
+
+* **How do I send money internationally?**
+    * You can send money internationally by following these steps: [link to guide on sending money internationally]
+* **How much money can I send?**
+    * The amount of money you can send is subject to various limits, including your account verification level and regulations in your sending and receiving countries. You can learn more about sending limits here: [link to sending limits page]
+* **How long does it take for my recipient to receive the money?**
+    * The delivery time for international money transfers depends on the recipient's country and chosen transfer method. You can see estimated delivery times here: [link to estimated delivery times page]
+* **Can I track my transfer?**
+    * Yes, you can track your transfer status in real-time from your account dashboard.
+
+**Account Management:**
+
+* **How do I create an account?**
+    * Creating an account is quick and easy. You can sign up here: [link to sign-up page]
+* **How do I verify my account?**
+    * Verifying your account allows you to access higher sending limits and enjoy additional features. You can learn more about account verification here: [link to account verification page]
+* **How do I update my account information?**
+    * You can update your account information anytime by logging in to your account and visiting the "My Account" section.
+* **How do I close my account?**
+    * If you no longer wish to use Exchange Sphere, you can close your account by contacting our customer support team.
+
+**Additional Resources:**
+
+* **Blog:** [link to blog page]
+* **Help Videos:** [link to help videos page]
+* **Contact Us:** [link to contact page]
+
+We hope this FAQ section has been helpful. If you have any further questions, please don't hesitate to contact us.
