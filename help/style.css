@@ -7,6 +7,94 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    /* overflow: hidden; */
+  }
+  /* --------------------------- */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+  }
+  #desktop-nav {
+    display: flex;
+    /* background-color: #00a9ff; */
+    background-color: rgb(16, 89, 66);
+  }
+  
+  nav {
+    justify-content: space-between;
+    align-items: center;
+    height: 25%;
+    padding-inline: 5rem;
+  
+  }
+  
+  .nav-links{
+  
+    padding: 20px;
+  }
+
+  .logo{
+    display: flex;
+    align-items: center;
+    gap:1rem;
+    }
+    
+    .logo h1{
+      color:#2DF3AE;
+    }
+    
+    .logo h1:hover{
+      color: white;
+    }
+    
+    ul {
+      align-items: center;
+      list-style-type: none;
+      display: flex;
+      gap: 10px;
+      font-size: larger;
+    }
+ 
+.sign-up{
+    height: 52px;
+    color: #fff;
+    font-size: large;
+    cursor: pointer;
+    background: #0e5d41;
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+    border: none;
+    width: 150px;
+    border: solid 1px white;
+  }
+  
+  .sign-up:hover{
+    background:#2DF3AE;
+    border: solid 1px;
+    font-size: larger;
+  }
+  
+  
+  li a{
+    color: whitesmoke;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #2DF3AE;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-color:  #2DF3AE;
+  }
+    
 .collapsible {
     background-color: #eee;
     color: #444;
@@ -19,7 +107,21 @@
     font-size: 15px;
   }
   
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .collapsible:after {
+    content: '\002B';
+    color: black;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+   
+  }
+  
+  .active:after {
+    content: "\2212";
+    justify-content: center;
+  }
+  
+  
   .active, .collapsible:hover {
     background-color: #ccc;
   }
