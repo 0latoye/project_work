@@ -69,6 +69,7 @@
       display: none;
     }
   }
+
 @media screen and (max-width: 400px){
 
     body{
@@ -88,6 +89,8 @@
     nav{
         justify-content:none;
         padding-inline: 0;
+        height: 10vh;
+        width: 100%;
 
     }
 
