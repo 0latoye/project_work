@@ -351,7 +351,7 @@ label{
   margin: 0;
   background-color: rgb(16, 89, 66);
   bottom: 0;
-  position: absolute;
+  /* position: absolute; */
   text-align: center;
   width: 100%;
 
@@ -463,4 +463,120 @@ form button{
 form button:hover{
   /* background: #4534fe; */
   background: #0e5d41;
+}
+
+
+.bottom{
+  display: flex;
+  padding: 100px;
+  color: white;
+  background-color: rgb(16, 89, 66);
+  
+
+}
+
+
+.phone_and_email{
+  display: grid;
+}
+
+.phone_icon{
+  margin-bottom: 10px;
+}
+
+.dummy{
+  width: 350px;
+}
+
+
+
+.phone,.mail{
+  display: flex;
+  color: white;
+}
+
+.bottom_text1{
+  margin-left: 20px;
+}
+
+.social-icons{
+  display: flex;
+  margin-top: 150px;
+  
+}
+
+.fb_icon{
+  color: white;
+ width: 30px;
+ height: 30px;
+}
+
+.fb_icon:hover{
+  cursor: pointer;
+  color: #2DF3AE;
+}
+
+.twit_icon{
+  color: white;
+  margin-left: 30px;
+}
+
+.twit_icon:hover{
+  cursor: pointer;
+  color: #2DF3AE;
+}
+
+.inst_icon{
+  color: white;
+  margin-left: 30px;
+}
+.inst_icon:hover{
+  cursor: pointer;
+  color: #2DF3AE;
+}
+
+.right_bottom{
+  margin-left: 500px;
+}
+
+.news_h{
+  margin-bottom: 20px;
+
+}
+
+.news_t{
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.sub_form{
+  display: flex;
+}
+
+.mail_input{
+  width: 300px;
+  background-color: white;
+  /* border: none; */
+  border-radius: 5px;
+}
+
+.mail_input:hover{
+  cursor: pointer;
+}
+
+
+.mail_submit{
+  padding: 15px;
+  width: 150px;
+  color: white;
+  border-radius: 5px;
+  background-color: #2DF3AE;
+  border: solid .5px;
+  margin-left: 60px;
+  align-items: center;
+}
+
+.mail_submit:hover{
+  cursor: pointer;
+  background-color: rgb(16, 89, 66);
 }
