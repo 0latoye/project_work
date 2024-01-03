@@ -19,13 +19,12 @@
   
         </div>
   
-        <div class="nav-links">
+        <div >
 
-          <ul>
+          <ul class="nav-links">
             <li><a href="../index.html">Home</a></li>
             <li><a href="index.html">About Us </a></li>
             <li><a href="../help/index.html">Help</a></li>
-            <!-- <li><a href="./signup-login/index.html">Log-In</a></li> -->
             <li><a href="../signup-login/index.html"><button class="sign-up"> Sign-Up</button></a></li>
             
           </ul>
@@ -33,6 +32,26 @@
         </div>
 
     </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo"><img src="./images/logog.svg" class="logo" alt="Exchange sohere logo">
+            <h1 class="site_name">ExchangeSphere</h1>
+        </div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+  
+          <div class="menu-links">
+            <li><a href="../index.html" onclick="toggleMenu()">Home</a></li>
+            <li><a href="index.html" onclick="toggleMenu()">About Us</a></li>
+            <li><a href="../help/index.html" onclick="toggleMenu()">Help</a></li>
+            <li><a href="../signup-login/index.html" onclick="toggleMenu()">Sign-Up</a></li>
+          </div>
+        </div>
+      </nav>
 
     <section class="content">
 
@@ -42,7 +61,7 @@
         </div>
 
         <div class="overview">
-            <h2>overview</h2>
+            <h2>Overview</h2>
             <p>Exchange Sphere strives to make the World a Smaller Place, One Transaction at a Time
                 Exchange Sphere was born from a simple vision to make global financial transactions accessible, affordable, and secure for everyone. We believe that currency exchange and international money transfers shouldn't be shrouded in complexity or burdened by exorbitant fees.</p>
        
@@ -73,5 +92,7 @@
     <div class="final">
         <h1>Join us on our journey and experience the difference with Exchange Sphere.</h1>
     </div>
+
+    <script src="./script.js"></script>
 </body>
 </html>

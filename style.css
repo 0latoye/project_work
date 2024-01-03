@@ -41,6 +41,7 @@ body{
   /* display: flex; */
   align-items: center;
   justify-content: center;
+  background-color: #2DF3AE;
   /* overflow: hidden; */
 }
 /* --------------------------- */
@@ -132,10 +133,10 @@ a:hover {
 
 
 .landing_page {
-  background-color: #2DF3AE;
+  
   display: flex;
   padding:10px;
-  height: 100vh;
+  /* height: 100vh; */
   gap: 1rem;
 
 }
