@@ -1,7 +1,78 @@
+@media screen and (max-width: 850px) {
+    body{
+        text-align: center;
+        /* display: flex;
+        flex-direction: column; */
+    }
+  
+    div{
+      margin-bottom: 20px;
+    }  
+  
+    #desktop-nav {
+      display: none;
+    }
+    #hamburger-nav {
+      
+      background-color: rgb(16, 89, 66);
+      display: flex;
+      /* height: 5rem;
+      justify-content: space-between;
+      align-items: center;
+      height: 25%;
+      padding-inline: 5%; */
+  
+    }
+  
+    .hamburger-menu{
+      margin-top: 6%;
+    }
+  .logo{
+   margin-top: 3%;
+  }
+  
+    .logo h1{
+      font-size:large;
+    }
+    .logo img{
+      width: 20%;
+    }
+    .menu-links a:hover{
+    
+      color: #2DF3AE;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      text-decoration-color:  #2DF3AE;
+    
+    }
+
+    .text_section h1{
+      /* font-size: smaller; */
+    }
+    .text_section img{
+      display: none;
+    }
+
+    .landing_page{
+      display:block;
+    }
+
+    .left{
+      width:50%;
+      height: 50%;
+      flex-wrap: nowrap;
+      background-color: none;
+
+    }
+
+    .footer{
+      display: none;
+    }
+  }
 @media screen and (max-width: 400px){
 
     body{
-        /* display: flex; */
+        display: grid;
         /* overflow: hidden;  */
         /* min-height: none;  */
         /* height:100%; */
@@ -21,11 +92,12 @@
     }
 
     .landing_page{
-        display: grid;
+        /* display: flex;
         flex-direction: column;
         height: auto;
-        margin: auto;
-        
+        margin: auto; */
+        display: flex;
+        flex-direction: column;
     }
 
     .left{
@@ -37,6 +109,28 @@
         place-items: center;
         
     }
+    #hamburger-nav{
+            
+      
+        align-items: center;
+        justify-content: center;
+      }
+  
+      
+  
+      .hamburger-menu{
+        margin-top: 6%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+      }
+  
+      .logo h1{
+        font-size:medium;
+      }
+      .logo img{
+        width: 10%;
+      }
 
     .text_section h1{
         font-size: 28px;

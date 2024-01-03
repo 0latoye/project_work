@@ -67,7 +67,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 25%;
-  padding-inline: 5rem;
+  padding-inline: 5%;
 
 }
 
@@ -154,7 +154,7 @@ a:hover {
   flex-wrap: wrap;
 
   
-background-color: #675AFE; 
+/* background-color: #675AFE;  */
 
 }
 
@@ -284,78 +284,9 @@ ul.flow-list li{
     .hamburger-icon span:first-child {
       transform: none;
     }
-      @media screen and (max-width: 850px) {
-        body{
-            text-align: center;
-        }
+     
       
-        div{
-          margin-bottom: 20px;
-        }  
-      
-        #desktop-nav {
-          display: none;
-        }
-        #hamburger-nav {
-          
-          background-color: rgb(16, 89, 66);
-          display: flex;
-          /* height: 5rem;
-          justify-content: space-between;
-          align-items: center;
-          height: 25%;
-          padding-inline: 5%; */
-      
-        }
-      
-        .hamburger-menu{
-          margin-top: 6%;
-        }
-      .logo{
-       margin-top: 3%;
-      }
-      
-        .logo h1{
-          font-size:large;
-        }
-        .logo img{
-          width: 20%;
-        }
-        .menu-links a:hover{
-        
-          color: #2DF3AE;
-          text-decoration: underline;
-          text-underline-offset: 3px;
-          text-decoration-color:  #2DF3AE;
-        
-        }
-      }
-      
-      @media screen and (max-width: 400px){
-        
-          #hamburger-nav{
-            
-      
-            align-items: center;
-            justify-content: center;
-          }
-      
-          
-      
-          .hamburger-menu{
-            margin-top: 6%;
-           display: flex;
-           justify-content: center;
-           align-items: center;
-          }
-      
-          .logo h1{
-            font-size:medium;
-          }
-          .logo img{
-            width: 10%;
-          }
-        }
+    
 
 @keyframes move {
   0% {
@@ -416,7 +347,13 @@ label{
 }
 
 .footer{
+  height: auto;
+  margin: 0;
   background-color: rgb(16, 89, 66);
+  bottom: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
 
 }
 
