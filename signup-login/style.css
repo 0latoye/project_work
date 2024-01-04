@@ -231,33 +231,37 @@ a:hover {
     
     .menu-links {
       position: absolute;
-      top: 100%;
-      right: 0;
+      top: 145%;
+      right: -95%;
       background-color: white;
-      width: fit-content;
+      /* width: fit-content; */
       max-height: 0;
       overflow: hidden;
       transition: all 0.3 ease-in-out;
       border-radius: 5px;
       font-family: 'Poppins', sans-serif;
+      background-color: rgb(16, 89, 66); 
+      text-align: center;
     
       
     }
     
     .menu-links a {
       display: block;
-      padding: 10px;
+      padding: 20px;
       text-align: center;
-      font-size: small;
-      color: black;
+      font-size: medium;
+      color: #2DF3AE;
       text-decoration: none;
       transition: all 0.3 ease-in-out;
       width: max-content;
-      color: #333;
       
     }
     
-    
+    .menu-links a:hover{
+      text-decoration: underline;
+      text-transform: bold;
+    }
     
     .menu-links li {
       list-style: none;
@@ -319,6 +323,7 @@ a:hover {
           
           background-color: rgb(16, 89, 66);
           display: flex;
+         
           /* height: 5rem;
           justify-content: space-between;
           align-items: center;
@@ -353,6 +358,7 @@ a:hover {
       @media screen and (max-width: 400px){
         .container{
           /* position: relative; */
+          z-index: 1;
         }
           #hamburger-nav{
             
@@ -368,6 +374,7 @@ a:hover {
            display: flex;
            justify-content: center;
            align-items: center;
+           z-index: 2;
           }
       
           .logo h1{
