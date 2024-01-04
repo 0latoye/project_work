@@ -99,7 +99,7 @@ ul {
 }
 
 .sign-up{
-  height: 52px;
+  height: 42px;
   color: #fff;
   font-size: large;
   cursor: pointer;
@@ -107,7 +107,7 @@ ul {
   transition: 0.3s ease-in-out;
   border-radius: 10px;
   border: none;
-  width: 150px;
+  width: 100px;
   border: solid 1px white;
 }
 

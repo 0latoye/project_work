@@ -35,14 +35,17 @@ p{
   
   nav {
     justify-content: space-between;
+    /* justify-content: flex-end; */
     align-items: center;
     height: 25%;
     padding-inline: 5%;
   
   }
+
+ 
   
   .nav-links{
-  
+    /* justify-content: flex-end; */
     padding: 20px;
   }
 
@@ -159,7 +162,7 @@ p{
 }
     /* ---------------------------------------------------- */
 .sign-up{
-    height: 52px;
+    height: 42px;
     color: #fff;
     font-size: large;
     cursor: pointer;
@@ -167,7 +170,7 @@ p{
     transition: 0.3s ease-in-out;
     border-radius: 10px;
     border: none;
-    width: 150px;
+    width: 100px;
     border: solid 1px white;
   }
   
@@ -192,8 +195,8 @@ p{
   
   .content{
     margin-top: 5%;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 
   .top{
@@ -216,14 +219,63 @@ p{
   font-size: large;
 }
 
-.overview,.team,.mission{
-margin-bottom: 2%;
+.top,.overview,.team,.mission{
+margin-bottom: 10%;
 }
+
+.overview h2{
+ margin-bottom: 3%;
+ text-decoration: underline;
+ font-size: xx-large;
+ text-align: center;
+}
+
+.team_content,.mission_content{
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+
+}
+.team_text p{
+  font-size: x-large;
+  text-align: center;
+  width: 600px;
+}
+.team h2{
+  margin-bottom: 3%;
+  font-size: xx-large;
+  text-align: center;
+  text-decoration: underline;
+  
+}
+
+.mission h2{
+  text-align: center;
+  text-decoration: underline;
+margin-bottom: 3%;
+font-size: xx-large;
+}
+
+.mission_image{
+  margin-left: 10px;
+}
+.mission_content p{
+  font-size: x-large;
+  text-align: center;
+  
+}
+
+.mission_text{
+  width: 600px;
+}
+
 .final{
     display: flex;
     justify-content: center;
     margin: auto;
 }
+
 
 @media screen and (max-width: 850px) {
   body{

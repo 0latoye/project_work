@@ -29,7 +29,7 @@ nav {
 }
 
 .sign-up{
-  height: 52px;
+  height: 42px;
   color: #fff;
   font-size: large;
   cursor: pointer;
@@ -37,7 +37,7 @@ nav {
   transition: 0.3s ease-in-out;
   border-radius: 10px;
   border: none;
-  width: 150px;
+  width: 100px;
   border: solid 1px white;
 }
 
@@ -295,7 +295,7 @@ a:hover {
     @media screen and (max-width:1080px) {
 
       .container{
-        position:relative;      
+        /* position:relative;       */
     
       }
     }
@@ -306,7 +306,7 @@ a:hover {
             text-align: center;
         }
       .container{
-        position: relative;
+        /* position: relative; */
       }
         div{
           margin-bottom: 20px;
@@ -352,7 +352,7 @@ a:hover {
       
       @media screen and (max-width: 400px){
         .container{
-          position: relative;
+          /* position: relative; */
         }
           #hamburger-nav{
             

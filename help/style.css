@@ -67,7 +67,7 @@ body{
 
  
 .sign-up{
-    height: 52px;
+    height: 42px;
     color: #fff;
     font-size: large;
     cursor: pointer;
@@ -75,7 +75,7 @@ body{
     transition: 0.3s ease-in-out;
     border-radius: 10px;
     border: none;
-    width: 150px;
+    width: 100px;
     border: solid 1px white;
   }
   
@@ -108,20 +108,41 @@ body{
     text-align: left;
     outline: none;
     font-size: 15px;
+    margin-inline-end: auto;
+  }
+
+
+
+  .general_collapse{
+    border-radius: 5px 5px 0 0;
+  }
+
+  .general_collapse h2{
+    align-items: center;
+    justify-content: center;
   }
   
+  .account_collapse{
+    
+    border-radius: 0 0 5px 5px;
+  }
   .collapsible:after {
+    display: flex;
+    flex-direction: row;
     content: '\002B';
     color: black;
     font-weight: bold;
     float: right;
     margin-left: 5px;
+    font-size: x-large;
+    align-items: center;
+    justify-content: center;
    
   }
   
   .active:after {
     content: "\2212";
-    justify-content: center;
+    /* justify-content: center; */
   }
   
   
@@ -135,7 +156,27 @@ body{
     display: none;
     overflow: hidden;
     background-color: #f1f1f1;
+    /* margin-bottom: 5%; */
   }
+
+  section{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .top{
+    text-align: center;
+    margin-bottom: 5%;
+  }
+
+  .note h2{
+    text-align: center;
+    
+  }
+
+
 
       /*------------ HAMBURGER MENU------------------------- */
 
@@ -165,6 +206,7 @@ body{
 }
 
 .menu-links {
+
   position: absolute;
   top: 100%;
   right: 0;
