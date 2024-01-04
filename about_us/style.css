@@ -235,12 +235,14 @@ margin-bottom: 10%;
   margin: auto;
   align-items: center;
   justify-content: center;
+  /* background-color: red; */
 
 }
 .team_text p{
   font-size: x-large;
   text-align: center;
-  width: 600px;
+ 
+  width: 80%;
 }
 .team h2{
   margin-bottom: 3%;
@@ -253,8 +255,8 @@ margin-bottom: 10%;
 .mission h2{
   text-align: center;
   text-decoration: underline;
-margin-bottom: 3%;
-font-size: xx-large;
+  margin-bottom: 3%;
+  font-size: xx-large;
 }
 
 .mission_image{
@@ -267,20 +269,82 @@ font-size: xx-large;
 }
 
 .mission_text{
-  width: 600px;
+  width: 80%;
 }
-
 .final{
+
     display: flex;
     justify-content: center;
     margin: auto;
 }
 
+@media screen and (max-width: 1000px) {
+
+  .mission_image img{
+    display:none;
+  }
+
+  .team_image img{
+    display: none;
+  }
+
+  /* .team_content{
+    display: flex;
+  } */
+
+  .team_text{
+    width:100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
 
 @media screen and (max-width: 850px) {
+
   body{
       text-align: center;
   }
+
+ .top h1{
+    font-size: larger;
+ }
+
+ .overview h2{
+    font-size: larger;
+ }
+
+ .overview p{
+    font-size: medium;
+ }
+
+ .team h2{
+   font-size: larger;
+ }
+
+ .team_text{
+  display: flex;
+ }
+
+ .team_text p{
+  font-size: medium;
+  
+
+ }
+
+ .mission h2{
+  font-size: larger;
+ }
+
+ .mission_text p{
+    font-size: medium;
+ }
+
+ .final h1{
+  font-size: large;
+ }
 
   div{
     margin-bottom: 20px;
@@ -332,6 +396,47 @@ font-size: xx-large;
       align-items: center;
       justify-content: center;
     }
+
+    .team_text{
+      display: flex;
+    }
+
+    
+ .top h1{
+  font-size: large;
+}
+
+.overview h2{
+  font-size: large;
+}
+
+.overview p{
+  font-size: small;
+}
+
+.team h2{
+ font-size: large;
+}
+.team_text p{
+font-size: small;
+
+}
+
+.mission h2{
+font-size: large;
+}
+
+.mission_text p{
+  font-size: small;
+}
+
+.final h1{
+font-size: medium;
+}
+
+div{
+  margin-bottom: 20px;
+}  
 
     
 
