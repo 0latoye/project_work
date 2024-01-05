@@ -1,4 +1,4 @@
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1000px) {
     body{
         text-align: center;
         /* display: flex;
@@ -65,9 +65,58 @@
 
     }
 
-    .footer{
+    /* .footer{
       display: none;
-    }
+    } */
+
+    
+.bottom{
+  display: flex;
+  flex-direction: column;
+}
+
+.left_bottom{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons{
+  margin-top: 5px;
+}
+
+.right_bottom{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.news_h{
+  font-size: larger;
+}
+
+.news_t{
+  font-size: small;
+  width: auto;
+  margin-bottom: 100px;
+  margin: auto;
+}
+.sub_form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mail_input{
+  width: auto;
+}
+
+.mail_submit{
+  margin: 0;
+  
+}
   }
 /* 
 @media screen and (max-width: 400px){
@@ -131,7 +180,6 @@
         margin: auto; */
         display: flex;
         flex-direction: column;
-
         padding-block: 10%;
     }
 
@@ -207,6 +255,57 @@
 
     .send_money_btn{
       /* display: none; */
+    }
+
+    
+    .dummy{
+      font-size: larger;
+    }
+    .phone_and_email{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .phone img{
+      display: none;
+    } 
+
+
+    .mail img{
+      display: none;
+    }
+
+    .right_bottom{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .news_h{
+      font-size: larger;
+    }
+
+    .news_t{
+      font-size: small;
+      width: auto;
+      margin-bottom: 100px;
+      margin: auto;
+    }
+    .sub_form{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .mail_input{
+      width: auto;
+    }
+
+    .mail_submit{
+      margin: 0;
+      
     }
 
 } 

@@ -473,7 +473,7 @@ form button:hover{
   padding: 100px;
   color: white;
   background-color: rgb(16, 89, 66);
-  
+  justify-content: space-between;
 
 }
 
@@ -488,6 +488,7 @@ form button:hover{
 
 .dummy{
   width: 350px;
+  color: white;
 }
 
 
@@ -504,6 +505,7 @@ form button:hover{
 .social-icons{
   display: flex;
   margin-top: 150px;
+  justify-content: center;
   
 }
 
@@ -538,17 +540,19 @@ form button:hover{
 }
 
 .right_bottom{
-  margin-left: 500px;
+ display: flex;
+ flex-direction: column;
 }
 
 .news_h{
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 
 }
 
 .news_t{
   width: 300px;
   margin-bottom: 20px;
+  margin: auto;
 }
 
 .sub_form{
@@ -581,4 +585,8 @@ form button:hover{
 .mail_submit:hover{
   cursor: pointer;
   background-color: rgb(16, 89, 66);
+}
+
+.footer_segment p{
+  font-size: larger;
 }

@@ -651,10 +651,10 @@ div{
     }
 
     .right_bottom{
-      /* display: flex;
+      display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: center; */
+      align-items: center;
     }
     
     .news_h{
@@ -662,14 +662,24 @@ div{
     }
 
     .news_t{
-      font-size: medium;
+      font-size: small;
+      width: auto;
+      margin-bottom: 50px;
+      margin: auto;
     }
     .sub_form{
       display: flex;
       flex-direction: column;
+      align-items: center;
+      justify-content: center;
     }
     .mail_input{
       width: auto;
+    }
+
+    .mail_submit{
+      margin: 0;
+      
     }
   }
 
