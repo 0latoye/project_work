@@ -35,6 +35,7 @@ p{
   
   nav {
     justify-content: space-between;
+    /* justify-content: space-around; */
     /* justify-content: flex-end; */
     align-items: center;
     height: 25%;
@@ -46,6 +47,7 @@ p{
   
   .nav-links{
     /* justify-content: flex-end; */
+    
     padding: 20px;
   }
 
@@ -67,7 +69,7 @@ p{
       align-items: center;
       list-style-type: none;
       display: flex;
-      gap: 10px;
+      gap: 45px;
       font-size: larger;
     }
     
@@ -94,7 +96,7 @@ p{
 .hamburger-icon span {
   width: 100%;
   height: 2px;
-  background-color: black;
+  background-color: #2DF3AE;
   transition: all 0.3 ease-in-out;
 }
 
@@ -190,7 +192,8 @@ p{
   .sign-up:hover{
     background:#2DF3AE;
     border: solid 1px;
-    font-size: larger;
+    color:#0e5d41;
+    font-size: large;
   }
   
   
@@ -291,6 +294,152 @@ margin-bottom: 10%;
     margin: auto;
 }
 
+.final{
+  text-align: center;
+}
+
+
+.bottom{
+  display: flex;
+  padding: 100px;
+  color: white;
+  background-color: rgb(16, 89, 66);
+  justify-content: space-between;
+
+}
+
+
+.phone_and_email{
+  display: grid;
+}
+
+.phone_icon{
+  margin-bottom: 10px;
+}
+
+.dummy{
+  width: 350px;
+  color: white;
+}
+
+
+
+.phone,.mail{
+  display: flex;
+  color: white;
+}
+
+.bottom_text1{
+  margin-left: 20px;
+}
+
+.social-icons{
+  display: flex;
+  margin-top: 150px;
+  justify-content: center;
+  
+}
+
+.fb_icon{
+  color: white;
+ width: 30px;
+ height: 30px;
+}
+
+.fb_icon:hover{
+  cursor: pointer;
+  color: #2DF3AE;
+}
+
+.twit_icon{
+  color: white;
+  margin-left: 30px;
+}
+
+.twit_icon:hover{
+  cursor: pointer;
+  color: #2DF3AE;
+}
+
+.inst_icon{
+  color: white;
+  margin-left: 30px;
+}
+.inst_icon:hover{
+  cursor: pointer;
+  color: #2DF3AE;
+}
+
+.right_bottom{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.news_h{
+  margin-bottom: 10px;
+
+}
+
+.news_h{
+  color: white;
+}
+
+.news_t{
+  width: 300px;
+  margin-bottom: 50px;
+  margin: auto;
+}
+
+.sub_form{
+  display: flex;
+}
+
+.mail_input{
+  width: 300px;
+  background-color: white;
+  /* border: none; */
+  border-radius: 5px;
+}
+
+.mail_input:hover{
+  cursor: pointer;
+}
+
+
+.mail_submit{
+  padding: 15px;
+  width: 150px;
+  color: white;
+  border-radius: 5px;
+  background-color: #2DF3AE;
+  border: solid .5px;
+  margin-left: 60px;
+  align-items: center;
+}
+
+.mail_submit:hover{
+  cursor: pointer;
+  background-color: rgb(16, 89, 66);
+}
+
+.footer{
+  height: auto;
+  margin: 0;
+  background-color: rgb(16, 89, 66);
+  bottom: 0;
+  /* position: absolute; */
+  text-align: center;
+  width: 100%;
+  
+  
+}
+.footer_segment p{
+ color: white;
+ font-size: larger;
+}
+
+
 @media screen and (max-width: 1000px) {
 
   .mission_image img{
@@ -315,7 +464,7 @@ margin-bottom: 10%;
 
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 960px) {
 
   body{
       text-align: center;
@@ -399,9 +548,25 @@ margin-bottom: 10%;
     text-decoration-color:  #2DF3AE;
   
   }
+.bottom{
+  display: flex;
+  flex-direction: column;
 }
 
-@media screen and (max-width: 400px){
+.left_bottom{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons{
+  margin-top: 5px;
+}
+
+}
+
+@media screen and (max-width: 500px){
   
     #hamburger-nav{
       
@@ -466,10 +631,45 @@ div{
     .logo img{
       width: 10%;
     }
+
+    .dummy{
+      font-size: larger;
+    }
+    .phone_and_email{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .phone img{
+      display: none;
+    } 
+
+
+    .mail img{
+      display: none;
+    }
+
+    .right_bottom{
+      /* display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; */
+    }
+    
+    .news_h{
+      font-size: larger;
+    }
+
+    .news_t{
+      font-size: medium;
+    }
+    .sub_form{
+      display: flex;
+      flex-direction: column;
+    }
+    .mail_input{
+      width: auto;
+    }
   }
-
-.final{
-  text-align: center;
-}
-
 

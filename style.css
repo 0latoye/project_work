@@ -94,7 +94,7 @@ ul {
   align-items: center;
   list-style-type: none;
   display: flex;
-  gap: 10px;
+  gap: 45px;
   font-size: larger;
 }
 
@@ -114,7 +114,8 @@ ul {
 .sign-up:hover{
   background:#2DF3AE;
   border: solid 1px;
-  font-size: larger;
+  font-size: large;
+  color:#0e5d41
 }
 
 
