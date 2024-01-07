@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Help Page</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a22ac3a79f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  
 </head>
 
 <body>
@@ -186,6 +189,108 @@
         <h2>We hope this FAQ section has been helpful. If you have any further questions, please don't hesitate to contact us.
         </h2>
     </div>
+
+    <div class="container">
+
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+            <option value="usa">Nigeria</option>
+            <option value="usa">Ghana</option>
+            <option value="usa">United Kingdom</option>
+            <option value="usa">South Africa</option>
+            <option value="usa">New Zealand</option>
+            <option value="usa">Netherlands</option>
+            <option value="usa">France</option>
+            <option value="usa">Other</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+
+      </div>
+
+      <footer class = "footer">
+
+        <div class="bottom">
+          <div class="left_bottom">
+            <div class="foot_content">
+              
+              <h2 class="dummy">
+                Contact us via our email and mobile details below: 
+              </h2>
+              <br />
+  
+              <div class="phone_and_email">
+                <div class="phone">
+                  <img src="../images/icon-phone.svg" class="phone_icon" />
+                  <p class="bottom_text1">Phone: +1-543-123-4567</p>
+                </div>
+                <br />
+  
+                <div class="mail">
+                  <img src="../images/icon-email.svg" class="email_icon" />
+                  <p class="bottom_text1">exchange@sphere.com</p>
+                </div>
+              </div>
+            </div>
+  
+            <div class="social-icons">
+              <i class="fa-brands fa-square-facebook fa-2xl fb_icon"></i>
+  
+              <i class="fa-brands fa-instagram fa-2xl inst_icon"></i>
+  
+              <i class="fa-brands fa-square-twitter fa-2xl twit_icon"></i>
+            </div>
+          </div>
+  
+          <div class="right_bottom">
+            <h1 class="news_h">NEWSLETTER</h1>
+  
+            <p class="news_t">
+  
+              To receive information on the latest exchange-rates, sign up to our weekly
+              newsletter. We'll never send you spam or pass on your email address
+            
+            </p>
+  
+            <form class="sub_form">
+              <input
+                type="text"
+                id="emal"
+                name="email"
+                class="mail_input"
+              /><br /><br />
+  
+              <input type="submit" value="Subscribe" class="mail_submit" />
+            </form>
+          </div>
+        </div>
+        <nav class="nav-links">
+  
+          <div class="footer_segment">
+            <p>Copyright TKD Limited</p>
+          </div>
+  
+        </nav>
+  
+    </footer>
+
+
 
 <script src="./script.js"></script>
 <script src="./menu-script.js"></script>

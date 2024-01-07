@@ -16,6 +16,7 @@
       
       background-color: rgb(16, 89, 66);
       display: flex;
+      padding: 2%;
       /* height: 5rem;
       justify-content: space-between;
       align-items: center;
@@ -36,6 +37,9 @@
     }
     .logo img{
       width: 20%;
+    }
+    .menu-links a{
+      margin: auto;
     }
     .menu-links a:hover{
     

@@ -40,6 +40,7 @@ p{
     align-items: center;
     height: 25%;
     padding-inline: 5%;
+    text-align: center;
   
   }
 
@@ -292,6 +293,7 @@ margin-bottom: 10%;
     display: flex;
     justify-content: center;
     margin: auto;
+    margin-bottom: 40px;
 }
 
 .final{
@@ -437,10 +439,37 @@ margin-bottom: 10%;
 .footer_segment p{
  color: white;
  font-size: larger;
+
+}
+
+.join{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.join img{
+  width: 800px;
+  height: auto;
 }
 
 
 @media screen and (max-width: 1000px) {
+
+  #hamburger-nav {
+    
+    background-color: rgb(16, 89, 66);
+    display: flex;
+    padding: 2%;
+    /* height: 5rem;
+    justify-content: space-between;
+    align-items: center;
+    height: 25%;
+    padding-inline: 5%; */
+
+  }
 
   .mission_image img{
     display:none;
@@ -462,6 +491,10 @@ margin-bottom: 10%;
     justify-content: center;
   }
 
+  .menu-links a{
+    margin: auto;
+  }
+
 }
 
 @media screen and (max-width: 960px) {
@@ -470,6 +503,13 @@ margin-bottom: 10%;
       text-align: center;
   }
 
+
+  .hamburger-menu{
+    margin-top: 6%;
+  }
+.logo{
+ margin-top: 3%;
+}
  .top h1{
     font-size: larger;
  }
@@ -515,24 +555,7 @@ margin-bottom: 10%;
   #desktop-nav {
     display: none;
   }
-  #hamburger-nav {
-    
-    background-color: rgb(16, 89, 66);
-    display: flex;
-    /* height: 5rem;
-    justify-content: space-between;
-    align-items: center;
-    height: 25%;
-    padding-inline: 5%; */
-
-  }
-
-  .hamburger-menu{
-    margin-top: 6%;
-  }
-.logo{
- margin-top: 3%;
-}
+  
 
   .logo h1{
     font-size:large;
@@ -562,6 +585,13 @@ margin-bottom: 10%;
 
 .social-icons{
   margin-top: 5px;
+}
+
+.join img{
+
+  width:60%;
+
+
 }
 
 }
