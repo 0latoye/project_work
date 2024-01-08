@@ -121,6 +121,23 @@
   margin: 0;
   
 }
+
+.app_download{
+  flex-direction: column-reverse;
+}
+.app_text{
+  text-align: center;
+  margin: auto;
+}
+
+.app_text h1{
+  font-size: 2em;
+}
+
+.app_stores{
+  align-items: center;
+  justify-content: center;
+}
   }
 /* 
 @media screen and (max-width: 400px){
@@ -151,7 +168,30 @@
       width: 10%;
     }
   } */
+  @media screen and (max-width: 850px){
 
+    .text_section h1{
+  
+      margin: auto;
+    }
+    .comp_main p{
+      margin: auto;
+    }
+    .app_download{
+      padding: 20px;
+      gap:0px;
+    }
+    .mobile_image{
+      margin: auto;
+    }
+    .app_stores{
+      flex-direction: column;
+      gap: 0;
+    }
+    .app_info{
+      width: auto;
+    }
+  }
 @media screen and (max-width: 400px){
 
     body{
@@ -310,6 +350,13 @@
     .mail_submit{
       margin: 0;
       
+    }
+
+    .app_text h1{
+      font-size: medium;
+    }
+    .app_text p{
+      font-size: small;
     }
 
 } 

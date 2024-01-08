@@ -58,49 +58,86 @@
     </div>
 
 </nav>
+<!-- 
+<div class="container">
 
-  <div class="container">
+  <input type="checkbox" id="check">
 
-    <input type="checkbox" id="check">
+  <div class="login form">
+    
+    <header>Login</header>
+    
+    <form id="loginForm" action="#" onsubmit="return validateLoginForm()">
+      <input type="text" placeholder="Enter your email">
+      <input type="password" placeholder="Enter your password">
+      <a href="#">Forgot password?</a>
+      <input type="submit" class="button" value="Login">
+    </form>
 
-    <div class="login form">
-      
-      <header>Login</header>
-      
-      <form  action="#" >
-        <input type="text" placeholder="Enter your email">
-        <input type="password" placeholder="Enter your password">
-        <a href="#">Forgot password?</a>
-        <input type="button" class="button" value="Login">
-      </form>
-
-      <div class="signup">
-        <span class="signup">Don't have an account?
-         <label for="check">Signup</label>
-        </span>
-      </div>
-
-    </div>
-
-    <div class="registration form">
-      <header>Signup</header>
-
-      <form action="#">
-        <input type="text" placeholder="Enter your email">
-        <input type="password" placeholder="Create a password">
-        <input type="password" placeholder="Confirm your password">
-        <input type="button" class="button" value="Signup">
-      </form>
-
-      <div class="signup">
-        <span class="signup">Already have an account?
-         <label for="check">Login</label>
-        </span>
-      </div>
-
+    <div class="signup">
+      <span class="signup">Don't have an account?
+       <label for="check">Signup</label>
+      </span>
     </div>
 
   </div>
+
+  <div class="registration form">
+    <header>Signup</header>
+
+    <form id="signupForm" action="#" onsubmit="return validateSignupForm()">
+      <input type="text" placeholder="Enter your email">
+      <input type="password" placeholder="Create a password">
+      <input type="password" placeholder="Confirm your password">
+      <input type="submit" class="button" value="Signup">
+    </form>
+
+    <div class="signup">
+      <span class="signup">Already have an account?
+       <label for="check">Login</label>
+      </span>
+    </div>
+
+  </div>
+</div> -->
+
+<div class="container">
+
+  <input type="checkbox" id="check">
+
+  <div class="form login">
+      <header>Login</header>
+      <form id="loginForm" onsubmit="return validateLoginForm()">
+          <input type="text" id="loginEmail" placeholder="Enter your email">
+          <input type="password" id="loginPassword" placeholder="Enter your password">
+          <a href="#">Forgot password?</a>
+          <input type="submit" class="button" value="Login" >
+      </form>
+
+      <div class="signup">
+          <span class="signup">Don't have an account?
+              <label for="check">Signup</label>
+          </span>
+      </div>
+  </div>
+
+  <div class="form registration">
+      <header>Signup</header>
+      <form id="signupForm" onsubmit="return validateSignupForm()">
+          <input type="text" id="signupEmail" placeholder="Enter your email">
+          <input type="password" id="signupPassword" placeholder="Create a password">
+          <input type="password" id="confirmPassword" placeholder="Confirm your password">
+          <input type="submit" class="button" value="Signup">
+      </form>
+
+      <div class="signup">
+          <span class="signup">Already have an account?
+              <label for="check">Login</label>
+          </span>
+      </div>
+  </div>
+
+</div>
   <script src="./script.js"></script>
   <script src="./menu-script.js"></script>
 </body>

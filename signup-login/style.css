@@ -24,8 +24,8 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 10vh;
-  padding-inline: 5rem;
-  width: 100%;
+  padding-inline: 5%;
+  /* width: 100%; */
   text-align: center;
 }
 
@@ -73,7 +73,7 @@ ul {
   align-items: center;
   list-style-type: none;
   display: flex;
-  gap: 10px;
+  gap: 45px;
   font-size: larger;
 
 }

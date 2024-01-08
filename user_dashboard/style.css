@@ -65,6 +65,9 @@ color: var(--mint-green);
   object-fit: cover;
   border-radius: 50%;
 }
+.u_name{
+  color: #2DF3AE;
+}
 .search_bar {
   height: 47px;
   max-width: 430px;
