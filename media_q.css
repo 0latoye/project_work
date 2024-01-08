@@ -353,10 +353,10 @@
     }
 
     .app_text h1{
-      font-size: medium;
+      font-size: large;
     }
     .app_text p{
-      font-size: small;
+      font-size: medium;
     }
 
 } 
