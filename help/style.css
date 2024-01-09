@@ -19,6 +19,18 @@ body{
     scroll-behavior: smooth;
   }
 
+  .site_name{
+    font-size: xx-large;
+  }
+  .site_name a{
+    text-decoration: none;
+    color: #2DF3AE;
+  }
+  .site_name a:hover{
+    color:white;
+    text-decoration: underline;
+    font-style: bold;
+  }7777
   p{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;

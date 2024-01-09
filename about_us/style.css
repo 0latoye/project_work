@@ -21,7 +21,15 @@ body{
   html {
     scroll-behavior: smooth;
   }
-
+  .site_name a{
+    text-decoration: none;
+    color: #2DF3AE;
+  }
+  .site_name a:hover{
+    color:white;
+    text-decoration: underline;
+    font-style: bold;
+  }
   
 p{
     font-family: 'Poppins', sans-serif;

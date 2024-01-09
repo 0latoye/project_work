@@ -48,6 +48,11 @@ body{
 html {
   scroll-behavior: smooth;
 }
+
+.site_name{
+  font-size: xx-large;
+}
+
 h1{
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
@@ -97,6 +102,16 @@ ul {
   display: flex;
   gap: 45px;
   font-size: larger;
+}
+
+.site_name a{
+  text-decoration: none;
+  color: #2DF3AE;
+}
+.site_name a:hover{
+  color:white;
+  text-decoration: underline;
+  font-style: bold;
 }
 
 .sign-up{
@@ -468,6 +483,46 @@ form button:hover{
   /* background: #4534fe; */
   background: #0e5d41;
 }
+
+.transaction{
+background-color: #0e5d41;
+display: flex;
+flex-direction: row;
+align-items: center;
+/* justify-content: space-around; */
+padding: 100px;
+}
+
+.trans_message{
+  color: white;
+  /* text-align: left; */
+  
+  /* width:auto; */
+  /* display: block; */
+  /* flex-direction: column; */
+}
+
+.trans_message h1{
+  margin-bottom: 10px;
+}
+
+.trans_message p{
+  margin-bottom: 10px;
+
+}
+
+.trans_message ul{
+  list-style-type: disc;
+  display: flex;
+  flex-direction: column;
+  font-size:;
+}
+
+.trans_image img{
+  width: 70%;
+  border-radius: 20px;
+}
+
 section .app_download{
   /* justify-content: space-around; */
 }
@@ -494,7 +549,7 @@ section .app_download{
 }
 
 .mobile_image img{
-width: 300px;
+  width: 300px;
 }
  .app_icon{
   width: 135px;
@@ -645,4 +700,5 @@ width: 300px;
 
 .footer_segment p{
   font-size: larger;
+  color: whitesmoke;
 }
