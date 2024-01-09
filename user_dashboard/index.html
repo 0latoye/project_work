@@ -44,7 +44,9 @@
               <span class="navlink_icon">
                 <i class="bx bx-home-alt"></i>
               </span>
-              <span class="navlink">Home</span>
+              <span class="navlink link_name">
+               <button class="nav_button" onclick="showSection('home')">Home</button> 
+              </span>
               <i class="bx bx-chevron-right arrow-left"></i>
             </div>
 
@@ -64,7 +66,9 @@
               <span class="navlink_icon">
                 <i class="bx bx-credit-card-alt"></i>
               </span>
-              <span class="navlink">Cards</span>
+              <span class="navlink link_name">
+                <button class="nav_button"  onclick="showSection('pricing_segment')">Cards</button>
+              </span>
               <i class="bx bx-chevron-right arrow-left"></i>
             </div>
 
@@ -81,7 +85,9 @@
               <span class="navlink_icon">
                 <i class="bx bx-grid-alt"></i>
               </span>
-              <span class="navlink">Manage</span>
+              <span class="navlink link_name">
+                <button class="nav_button" onclick="showSection('manage')">Manage</button>
+              </span>
               <i class="bx bx-chevron-right arrow-left"></i>
             </div>
 
@@ -98,7 +104,7 @@
               <span class="navlink_icon">
                 <i class="bx bx-log-out-circle"></i>
               </span>
-              <span class="navlink">Logout</span>
+              <span class="navlink link_name logout"><a href="../index.html">Logout</a></span>
               <!-- <i class="bx bx-chevron-right arrow-left"></i> -->
             </div>
 
@@ -197,16 +203,94 @@
           </div>
         </div>
 
-
+<!-- CARD CONTENT PAGE  -->
 
       
 
         
       </div>
     </nav>
-    
+
+    <!-- HOME PAGE SECTION -->
+
+    <section id="home" class="page-section active-section">
+
+      <div class="row">
+        <div class="box">
+          <div class="card">
+            <h2>User Account Balance</h2>
+            <p>$0.00</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="card">
+            <h2>Transaction History</h2>
+            <p>0 Transactions made</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="card">
+            <h2>Account Type</h2>
+            <p>Account Not Setup Yet</p></div>
+        </div>
+
+        <!-- <div class="box">
+          <div class="card">..</div>
+        </div> -->
+
+      </div>
+
+    </section>
+
+    <!-- CARD CONTENT PAGE -->
+
+    <secction id="pricing_segment" class="page-section">
+
+    <div class="boxs">
+      <ul class="price">
+        <li class="header basic">Basic</li>
+        <li class="grey">$ 29.99/month</li>
+        <li>Limited Exchange Rates</li>
+        <li>Standard Transaction Fees</li>
+        <li>Email Customer support</li>
+        <!-- <li>1GB Bandwidt</li> -->
+        <li class="grey"><a href="#" class="button">Subscribe</a></li>
+      </ul>
+    </div>
+
+    <div class="boxs">
+      <ul class="price">
+        <li class="header standard">Standard</li>
+        <li class="grey">$ 59.99 / month</li>
+        <li>Enhanced Exchange Rates</li>
+        <li>Reduced Transaction Fees</li>
+        <!-- <li>Instant </li> -->
+        <li>Email and Chat Customer Support</li>
+        <li class="grey"><a href="#" class="button">Subscribe</a></li>
+      </ul>
+    </div>
+
+    <div class="boxs">
+      <ul class="price">
+        <li class="header premium">Premium</li>
+        <li class="grey">$ 99.99 / month</li>
+        <li>Premium Exchange Rates</li>
+        <li>Waived (T&C's Apply)</li>
+        <li>Priority Email / Chat </li>
+        <!-- <li>1GB Bandwidth</li> -->
+        <li class="grey"><a href="#" class="button">Subscribe</a></li>
+      </ul>
+    </div>
+
+    </secction>
+
+    <section id="manage" class="page-section">
+
+
+    </section>
     
     <!-- JavaScript -->
     <script src="script.js"></script>
+    <script src="./sections.js"></script>
   </body>
 </html>
