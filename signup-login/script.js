@@ -49,9 +49,9 @@ document.addEventListener('DOMContentLoaded', function () {
 function checkLoggedInUser() {
     var userEmail = localStorage.getItem('userEmail');
 
-    if (userEmail) {
-        window.location.href = '../user_dashboard/index.html'; // Redirect to the dashboard page
-    }
+    // if (userEmail) {
+    //     window.location.href = '../user_dashboard/index.html'; // Redirect to the dashboard page
+    // }
 }
 
 function validateLoginForm(event) {
@@ -86,6 +86,6 @@ function validateSignupForm(event) {
         localStorage.setItem('userEmail', email);
         alert('Signup successful!');
         // window.location.href = '../user_dashboard/index.html'; // Redirect to the dashboard page
-        window.location.href = '../user_dashboard/index.html'; 
+        // window.location.href = '../user_dashboard/index.html'; 
     }
 }
