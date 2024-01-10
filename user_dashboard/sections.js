@@ -16,11 +16,14 @@
 // }
 
 // sections.js
+// sections.js
 
 // Initially show the home section by default
 showSection('home');
 
 function showSection(sectionId) {
+    console.log(`Switching to section: ${sectionId}`);
+
     // Hide all sections
     var sections = document.querySelectorAll('.page-section');
     sections.forEach(function (section) {
